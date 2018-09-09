@@ -14,10 +14,9 @@ install:
 
 before_build:
     - cmake -DBUILD_DOC=OFF -DBUILD_DEMO=OFF -BUILD_BENCH=OFF -BUILD_TEST=ON -G "Visual Studio 15 2017 Win64" .
-
+    - cd $(APPVEYOR_BUILD_FOLDER)
+    - dir
 build:
-  - cd $(APPVEYOR_BUILD_FOLDER)
-  - dir
   project: $(APPVEYOR_BUILD_FOLDER)/unit-test.sln
 
 test_script:

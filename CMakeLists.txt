@@ -59,7 +59,7 @@ endif ()
 
 # Demo 
 if (BUILD_DEMO)
-  add_subdirectory(Doc)
+  add_subdirectory(Examples)
 endif ()
 
 ###################

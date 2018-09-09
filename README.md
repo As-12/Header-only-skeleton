@@ -16,5 +16,5 @@
 - Add Memcheck job into Travis-CI.
 
 # Contribution
-- Please open issue/pull request for suggest to make this better.
+- Please open issue/pull request for suggestion to make this better.
 

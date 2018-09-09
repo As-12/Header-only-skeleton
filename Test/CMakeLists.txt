@@ -19,6 +19,10 @@ target_link_libraries(unit-test
     lib::myLibrary  # Header-only library
 )
 
+target_compile_options(unit-test PRIVATE --coverage)
+target_link_libraries(unit-test PRIVATE --coverage)
+
+
 # Add tests
 add_test(test_all unit-test)
 

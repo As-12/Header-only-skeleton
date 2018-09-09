@@ -5,7 +5,7 @@
 TEST(SubtractTest1, SubtractTwoNumbers)
 {
     Library::print();
-    EXPECT_EQ(5, 6-1);
+    EXPECT_EQ(5, 4);
 }
 
 int main(int argc, char **argv)

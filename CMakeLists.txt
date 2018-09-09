@@ -45,8 +45,6 @@ add_subdirectory(include)
 # Test cases
 if (BUILD_TEST)
   add_subdirectory(Test)
-  
-endif()
 endif ()
 
 # Documentation

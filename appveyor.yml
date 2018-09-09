@@ -16,6 +16,8 @@ before_build:
     - cmake -DBUILD_DOC=OFF -DBUILD_DEMO=ON -BUILD_BENCH=OFF -BUILD_TEST=OFF -G "Visual Studio 15 2017 Win64" .
     - cd %APPVEYOR_BUILD_FOLDER%
     - dir
+    - cd Examples
+    - dir
 build:
   project: $(APPVEYOR_BUILD_FOLDER)/Skeleton-Header.sln
 

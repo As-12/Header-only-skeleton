@@ -6,7 +6,7 @@
 
 namespace Library {
     namespace Utility {
-        inline namespace v1 {
+            namespace v1 {
 
             /*! \brief Brief description of Swap function.
             *         Just another brief description of Swap function.

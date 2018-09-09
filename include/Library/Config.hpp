@@ -1,6 +1,5 @@
 #ifndef LIBRARY_CONFIG_HPP
 #define LIBRARY_CONFIG_HPP
-
 namespace Library { 
     namespace Utility {
         inline namespace v1 {}

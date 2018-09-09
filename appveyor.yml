@@ -13,11 +13,11 @@ install:
     - git submodule update --init --recursive
 
 before_build:
-    - cmake -DBUILD_DOC=OFF -DBUILD_DEMO=OFF -BUILD_BENCH=OFF -BUILD_TEST=ON -G "Visual Studio 15 2017 Win64" .
+    - cmake -DBUILD_DOC=OFF -DBUILD_DEMO=ON -BUILD_BENCH=OFF -BUILD_TEST=OFF -G "Visual Studio 15 2017 Win64" .
     - cd %APPVEYOR_BUILD_FOLDER%
     - dir
 build:
   project: $(APPVEYOR_BUILD_FOLDER)/Skeleton-Header.sln
 
 test_script:
-  - '%APPVEYOR_BUILD_FOLDER%/CONFIGURATION%/Test/unit-test.exe'
+  - '%APPVEYOR_BUILD_FOLDER%/CONFIGURATION%/Examples/demo-1.exe'

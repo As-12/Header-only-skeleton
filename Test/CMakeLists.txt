@@ -23,4 +23,3 @@ target_compile_options(unit-test PRIVATE --coverage)
 
 # Add tests
 add_test(test_all unit-test)
-

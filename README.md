@@ -14,10 +14,9 @@
 
 # Current Tasks:
 
-- Integrate Travis CI for per-commit testing.
-- Add Windows Support.
-- Add Make/Install and comply with CMake find_package.
-- Add Static Analyzer.
+- Integrate with appveyor for Windows Visual Studio Support
+- Modify CMakeLists for installations.
+- Add Clang Static Analyzer.
 - Add Memcheck job into Travis-CI.
 
 # Contribution

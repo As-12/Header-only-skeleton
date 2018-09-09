@@ -22,4 +22,4 @@ build:
   project: $(APPVEYOR_BUILD_FOLDER)/Examples/Skeleton-Demo.sln
 
 test_script:
-  - '%APPVEYOR_BUILD_FOLDER%/CONFIGURATION%/Examples/demo-1.exe'
+  - '%APPVEYOR_BUILD_FOLDER%/%CONFIGURATION%/Examples/demo-1.exe'

@@ -1,18 +1,19 @@
+# C++ Skeleton Header-only library 
+# Generating Doxygen Documentation
+
+# Set the project name
 project (Skeleton-Doc)
 
+# Require CMake 3.5
 cmake_minimum_required (VERSION 3.5)
 
-
-# first we can indicate the documentation build as an option and set it to ON by default
-
-
-# check if Doxygen is installed
+# Requires a pre-installed Doxygen
 find_package(Doxygen)
 
 if (DOXYGEN_FOUND)
     # set input and output files
-    set(DOXYGEN_IN ${CMAKE_CURRENT_SOURCE_DIR}/myDoxy.in)
-    set(DOXYGEN_OUT ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
+    set(DOXYGEN_IN ${CMAKE_CURRENT_SOURCE_DIR}/Doxygen.in)
+    set(DOXYGEN_OUT ${CMAKE_CURRENT_BINARY_DIR}/DoxygenConfig)
 
     # request to configure the file
     configure_file(${DOXYGEN_IN} ${DOXYGEN_OUT} @ONLY)

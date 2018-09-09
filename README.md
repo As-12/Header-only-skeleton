@@ -1,18 +1,20 @@
 # Header-only-skeleton
-A skeleton CMake framework for header-only C++ library 
+ A skeleton framework for Header-only C++ library with Unit-testing and Benchmarking framework.
 
 # Feature
 
-- Unit Testing Framework is GoogleTest
-- Performance Testing Framework is GoogleBenchmark
-- Configurable Config.hpp
+- Unit Testing Framework is GoogleTest.
+- Performance Testing Framework is GoogleBenchmark.
+- Generate Documentation through Doxygen.
 
-# TODO:
+# Current Tasks:
 
-- Add Travis to run unit-test per commit 
-- The library could be tested on 
-- Add installation option
-- Test on Windows
+- Integrate Travis CI for per-commit testing.
+- Add Windows Support.
+- Add Make/Install and comply with CMake find_package.
+- Add Static Analyzer.
+- Add Memcheck job into Travis-CI.
 
-# Contribution is welcome
+# Contribution
+- Please open issue/pull request for suggest to make this better.
 

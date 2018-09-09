@@ -56,8 +56,7 @@ namespace Library {
             \sa QTstyle_Test(), ~QTstyle_Test(), testMeToo() and publicVar()
             */
             int testMe(int a,const char *s) {return 0;}
-        
-        
+            
             //! A public variable.
             /*!
             Details.

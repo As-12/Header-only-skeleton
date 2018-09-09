@@ -4,7 +4,7 @@ image: Visual Studio 2017
 
 platform:
   - x64
- 
+
 configuration:
   - Release
   - Debug
@@ -17,7 +17,7 @@ before_build:
     - cd %APPVEYOR_BUILD_FOLDER%
     - dir
 build:
-  project: $(APPVEYOR_BUILD_FOLDER)/unit-test.sln
+  project: $(APPVEYOR_BUILD_FOLDER)/Skeleton-Header.sln
 
 test_script:
   - '%APPVEYOR_BUILD_FOLDER%/CONFIGURATION%/Test/unit-test.exe'

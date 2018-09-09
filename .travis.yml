@@ -22,4 +22,4 @@ notifications:
 sudo: false
 after_success:
   - coveralls --root . -E ".*gtest.*" -E ".*CMakeFiles.*"
-  
+

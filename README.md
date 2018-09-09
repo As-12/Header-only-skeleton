@@ -1,6 +1,6 @@
+# Header-only-skeleton
 [![Build Status](https://travis-ci.org/As-12/Header-only-skeleton.svg?branch=master)](https://travis-ci.org/As-12/Header-only-skeleton)
 
-# Header-only-skeleton
  A skeleton framework for Header-only C++ library with Unit-testing and Benchmarking framework.
 
 # Feature
